@@ -1,5 +1,3 @@
-
-
 exports.up = function(knex) {
   return Promise.all([
     knex.schema.createTable('owners', function(table) {
